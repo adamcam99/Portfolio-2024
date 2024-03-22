@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/*
+	Author: Adam Cameron
+	Date: 15/11/22
+
+
+*/
+
+body {
+	background-color: grey;
+	color: white;
+	font-family: verdana;
+	
+}
+
+
+a:link {
+	color: white;
+	
+}
+
+a:visited {
+	color:white;
+	
+}
+
+p {
+	text-align: center;
+		
+}
+
+
+h1 {
+	text-align: center;
+	
+}
+nav ul {
+    list-style: none; /* Removes default bullet points */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centers the menu if desired */
+}
+
+nav li {
+    display: inline-block; /* This makes the list items horizontal */
+    margin-right: 20px; /* Adds some space between the menu items */
+}
+nav a {
+	font-style: italic;
+	text-decoration: none;
+	
+}
+
+hr {
+	opacity: 0.2;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+/* Add to portfolio_base.css */
+
+/* Resets link styles within the project cards */
+.project-card {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits color from parent elements */
+}
+
+.card {
+    border: 1px solid #ddd; /* Adds a light border */
+    border-radius: 8px; /* Rounds the corners */
+    overflow: hidden; /* Ensures contents fit within the rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.card-img {
+    width: 100%; /* Ensures the image covers the card */
+    display: block; /* Removes bottom space under the image */
+}
+
+.card-content {
+    padding: 15px; /* Adds padding inside the card */
+}
+
+.card h3 {
+    margin-top: 0; /* Removes the top margin for the title */
+}
+
+.card p {
+    margin-bottom: 0; /* Removes the bottom margin for the description */
+}
+
+
+/*phone*/
+@media only screen and (max-width: 480px) {
+	
+	
+	p {
+		font-size: 1.1em;
+	}
+
+	
+	
+	h1 {
+		font-size: 0.7em;
+	}
+	article {
+		margin: auto;
+	
+	}
+}
+
+
+/*tablets and desktops */
+
+@media only screen and (min-width: 481px) {
+	
+	
+	
+	section {
+	display: grid;
+	grid-template-rows: 100px auto auto;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2%;
+	row-gap: 50px;
+
+	.container {
+        grid-template-columns: 1fr; /* Adjust to stack cards vertically on smaller screens */
+    }
+	
+}
+	
+	
+}
+
+/*   desktops only  */
+	
+@media only screen and (min-width: 769px) {
+	
+	
+	
+	
+	section {
+	display: grid;
+	grid-template-rows: 100px auto auto;
+	grid-template-columns: 3fr 2fr;
+	column-gap: 2%;
+	row-gap: 50px;
+}
+	
+	
+	
+}

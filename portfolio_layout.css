@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* 
+
+Author: Adam Cameron
+Date: 22/11/2022
+
+*/
+
+/*grid tag */
+
+/* resume page */
+
+
+
+
+/* contact */
+
+/* {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 2%;
+}
+
+*/
+
+p {
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+.spaceG {
+	padding-top: 300px;
+}
+
+.spaceR {
+	padding-top: 100px;
+	
+}
+
+.spaceI {
+	padding-top: 500px;
+	
+}
+
+.spaceC {
+	padding-top: 500px;
+	
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding around the grid */
+    max-width: 800px; /* Optional: Adjust this value based on your design */
+    margin: auto; /* Centers the container */
+}
+/* Hover effect for cards */
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Adds a shadow to indicate interactivity */
+    transform: translateY(-5px); /* Slightly lifts the card */
+}

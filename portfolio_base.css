@@ -14,6 +14,14 @@ body {
 	
 }
 
+/* resume */
+.resume-list {
+    list-style-position: inside; /* Ensures bullets are inside the list item area */
+    text-align: left; /* Aligns text to the left */
+    display: table; /* Centers the list by treating it as a table */
+    margin: 0 auto; /* Auto margins center the "table" */
+    padding-left: 20px; /* Adjusts starting position of bullet points */
+}
 
 /* //contact  */
 .contact-info {
@@ -131,6 +139,9 @@ hr {
 	
 	p {
 		font-size: 1.1em;
+	}
+	.contact-info {
+		white-space: normal; /* Allows text to wrap and not overflow */
 	}
 
 	

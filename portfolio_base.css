@@ -132,6 +132,9 @@ hr {
 	p {
 		font-size: 1.1em;
 	}
+	.contact-info {
+		white-space: normal; /* Allows text to wrap and not overflow */
+	}
 
 	
 	

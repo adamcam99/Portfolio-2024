@@ -15,6 +15,30 @@ body {
 }
 
 
+/* //contact  */
+.contact-info {
+    background-color: #74b96e; /* Changed background color to a specific green shade */
+    border-radius: 8px; /* Rounded corners for the card effect */
+    padding: 20px; /* Padding around the content */
+    margin: 10px auto; /* Adds margin to the top and bottom, auto centers horizontally */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Specifies the font family */
+    font-size: 20px; /* Sets a larger font size for readability */
+    text-align: center; /* Centers the text inside the card */
+    width: 600px; /* Adjusts the width to fit the content with some space */
+    display: block; /* Ensures the div acts as a block-level element */
+    max-width: 80%; /* Limits the maximum width to prevent the card from being too wide */
+    white-space: nowrap; /* Prevents text from wrapping to ensure phone number/email stays on one line */
+}
+
+.contact-info a {
+    font-weight: bold; /* Ensures the text within links is bold */
+    white-space: nowrap; /* Prevents the text (phone number or email) from wrapping to a new line */
+}
+
+
+
+
 a:link {
 	color: white;
 	

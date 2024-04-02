@@ -13,6 +13,38 @@
 		<link href="portfolio_layout.css" rel="stylesheet" />
 		<link href="portfolio_base.css" rel="stylesheet" />
 	</head>
+	<style>
+
+
+        .education-content {
+    	display: flex;
+    	justify-content: center; /* Center the items for better spacing control */
+    	flex-wrap: wrap;
+		}
+
+		.education-content > div {
+    	/* Adjust the flex-basis to a lower percentage to bring items closer */
+    	flex-basis: 30%; /* Decreased from 48% for less width, more space in between */
+    	margin: 0 2%; /* Adds horizontal margin for spacing, adjust as needed */
+    	margin-bottom: 20px;
+		}
+
+		.resume-list {
+    	list-style-position: inside;
+    	text-align: left;
+    	padding-left: 20px;
+			}
+
+        @media (max-width: 768px) {
+            .education-content {
+                flex-direction: column;
+            }
+            
+            .education-content > div {
+                flex-basis: 100%; /* Each child takes full width on smaller screens */
+            }
+        }
+    </style>
 	<body>
 		<header>
 			<h1>Resume</h1>
@@ -27,54 +59,47 @@
 			</nav>
 			<hr />
 		</header>
-		
-			
-				
-				<br><br><br>
-				
-				
-				
-		
-		
-		
-		<article id="art1">
-				<p>
-					                              NSCC      |    Halifax NS
-		                                                                         IT programming 
-
-				</p>
-				
-				<ul class="resume-list">
-            <li>User Interface Design and Development</li>
-            <li>Professional Practices for IT</li>
-            <li>Database structures</li>
-            <li>HTML and CSS</li>
-            <li>Project Management</li>
-            <li>Introduction to Networking and Security</li>
-            <li>Operating Systems – Linux</li>
-            <li>Introduction to Windows Administration</li>
-            <li>Object Oriented Programming</li>
-            <li>Python</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>JavaScript</li>
-            <li>Node</li>
-            <li>React</li>
-            <li>Php and Laravel</li>
-            <li>Scrum methodologies</li>
-            <li>Website development</li>
-            <li>Android development</li>
-            <li>Project management</li>
-            <li>Client side programming</li>
-        </ul>
-				<br><br><br>
-				<hr />
-				
-				
-		
-		
-		
+		<article>
+			<div class="education-content">
+				<div>
+					<p>NSCC | Halifax NS IT programming</p>
+					<ul class="resume-list">
+						<li>Data Fundamentals</li>
+						<li>Professional Practices for IT</li>
+						<li>Web Application Programming</li>
+						<li>Project Management</li>
+						<li>Mobile Application Development - Android</li>
+						<li>Introduction to Networking and Security</li>
+						<li>Operating Systems – Linux</li>
+						<li>Introduction to Windows Administration</li>
+						<li>Object Oriented Programming</li>
+						<li>Programming in C</li>
+						<li>Programming C++</li>
+						<li>Data Structures</li>
+						<li>Windows Programming C#</li>
+						<li>Client Side Programming</li>
+						<li>Introduction to Systems Analysis and Design (AD)</li>
+					</ul>
+				</div>
+				<div>
+					<p>Skills learned</p>
+					<ul class="resume-list">
+						<li>Python</li>
+						<li>C</li>
+						<li>C#</li>
+						<li>C++</li>
+						<li>Javascript</li>
+						<li>SQL</li>
+						<li>Command line</li>
+						<li>Java</li>
+						<li>CSS</li>
+						<li>Html</li>
+						<li>PHP</li>
+						<li>Laravel</li>
+					</ul>
+				</div>
+			</div>
+			<hr />
 		</article>
 		
 		<article id="art2">
@@ -121,6 +146,29 @@
 
 
 				</ul>
+
+				<br><br>
+				p>
+					
+				
+				</p>
+				<p>
+					Nscc project blackbird | Digital negotiator web game 05/2023 – 06/2023
+				
+				</p>
+
+				<ul class="resume-list">
+					<li>Developed virtual tabletop game using PHP and Laravel.</li>
+					<li>Collaborated with a large team on new mechanics and design ideas. </li>
+					<li>Worked with GitHub to fork code and commit seamlessly to main branch.</li>
+					<li>Developed new UI designs</li>
+					<li>Developed with Php and Laravel </li>
+
+				</ul>
+
+
+
+				<br><br>
 		
 				<hr />
 				
